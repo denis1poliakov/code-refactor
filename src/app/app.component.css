@@ -1,0 +1,20 @@
+.page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.page__header {
+  margin-bottom: 25px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}

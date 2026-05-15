@@ -1,0 +1,13 @@
+<main class="page">
+  <header class="page__header">
+    <h1>Orders dashboard</h1>
+    <p>
+      This screen intentionally contains implementation debt inside the grid
+      component. It should run, but it is ready for a refactoring task.
+    </p>
+    <button type="button" (click)="toggleGrid()">
+      {{ gridVisible() ? 'Hide grid' : 'Show grid' }}
+    </button>
+  </header>
+  <app-orders-grid *ngIf="gridVisible()" />
+</main>
